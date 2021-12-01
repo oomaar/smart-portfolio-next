@@ -1,4 +1,4 @@
-import { Header } from "../Components";
+import { Header, Hero } from "../Components";
 import { NextHead } from "../Global/NextHead";
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
       <NextHead />
 
       <Header />
+      <Hero />
     </div>
   );
 };
