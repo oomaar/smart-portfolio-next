@@ -239,7 +239,7 @@
       "title": "Frontend",
       "profession": "Developer",
       "buttonText": "View More",
-      "icon": "ui uil-brackets-curly",
+      "icon": "uil uil-arrow",
       "service": [
         "Responsive Web Designing.",
         "Create Next-App.",
@@ -264,7 +264,7 @@
       "title": "Graphic",
       "profession": "Designer",
       "buttonText": "View More",
-      "icon": "ui uil-web-grid",
+      "icon": "uil uil-palette",
       "service": [
         "Sketch the user interface.",
         "Pick beautiful colors.",

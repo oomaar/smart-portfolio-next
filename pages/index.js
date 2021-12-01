@@ -1,4 +1,4 @@
-import { About, Header, Hero, Qualification, Skill } from "../Components";
+import { About, Header, Hero, Qualification, Services, Skill } from "../Components";
 import { NextHead } from "../Global/NextHead";
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
       <About />
       <Skill />
       <Qualification />
+      <Services />
     </div>
   );
 };
