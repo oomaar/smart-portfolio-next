@@ -5,6 +5,9 @@ export const NextHead = () => {
         <Head>
             <title>Omar's Portfolio | Resume</title>
 
+            {/* Favicon */}
+            <link rel="icon" href="/favicon.png" />
+
             {/* Google Font CDN */}
             <link rel="preconnect" href="https://fonts.gstatic.com" />
             <link
