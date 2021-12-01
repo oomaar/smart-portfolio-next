@@ -1,5 +1,9 @@
+import { Layout } from "../Global/Layout";
+
 export default function App({ Component, pageProps }) {
   return (
-    <Component {...pageProps} />
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   )
 }

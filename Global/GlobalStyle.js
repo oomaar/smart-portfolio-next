@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import styled from "styled-components/macro";
+import styled from "styled-components";
 
 // Favorite Color
 // Purple 250 - Green 142 - Blue 230 - Pink 340 - Red 0
