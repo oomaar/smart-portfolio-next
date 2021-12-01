@@ -78,29 +78,34 @@
       "id": 1,
       "title": "Frontend developer",
       "subTitle": "More than 3 years",
-      "icon": "ui uil-brackets-curly",
+      "icon": "uil uil-arrow",
       "skills": [
         {
+          "id": "front-a1",
           "name": "HTML & CSS",
           "number": "90%",
           "width": "90"
         },
         {
+          "id": "front-a2",
           "name": "JavaScript",
           "number": "80%",
           "width": "80"
         },
         {
+          "id": "front-a3",
           "name": "ReactJS",
           "number": "80%",
           "width": "80"
         },
         {
+          "id": "front-a4",
           "name": "NextJS",
           "number": "70%",
           "width": "70"
         },
         {
+          "id": "front-a5",
           "name": "Styled-Components",
           "number": "75%",
           "width": "75"
@@ -114,22 +119,26 @@
       "icon": "ui uil-server-network",
       "skills": [
         {
+          "id": "back-a1",
           "name": "NodeJS",
           "number": "70%",
           "width": "70"
         },
         {
-          "name": "MongoDB",
+          "id": "back-a2",
+          "name": "Express",
           "number": "60%",
           "width": "60"
         },
         {
-          "name": "Firebase",
+          "id": "back-a3",
+          "name": "MongoDB",
           "number": "65%",
           "width": "65"
         },
         {
-          "name": "Devops",
+          "id": "back-a4",
+          "name": "Firebase",
           "number": "65%",
           "width": "65"
         }
@@ -139,14 +148,16 @@
       "id": 3,
       "title": "Designer",
       "subTitle": "More than 4 years",
-      "icon": "ui uil-swatchbook",
+      "icon": "uil uil-palette",
       "skills": [
         {
+          "id": "design-a1",
           "name": "Photoshop",
           "number": "80%",
           "width": "90"
         },
         {
+          "id": "design-a2",
           "name": "Illustrator",
           "number": "60%",
           "width": "60"
