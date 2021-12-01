@@ -9,7 +9,8 @@ import {
   Qualification,
   ScrollUp,
   Services,
-  Skill
+  Skill,
+  Footer
 } from "../Components";
 import { NextHead } from "../Global/NextHead";
 
@@ -27,19 +28,22 @@ const Application = styled.main`
 
 export default function Home() {
   return (
-    <Application>
+    <>
       <NextHead />
 
-      <Header />
-      <Hero />
-      <About />
-      <Skill />
-      <Qualification />
-      <Services />
-      <Portfolio />
-      <Project />
-      <Contact />
-      <ScrollUp />
-    </Application>
+      <Application>
+        <Header />
+        <Hero />
+        <About />
+        <Skill />
+        <Qualification />
+        <Services />
+        <Portfolio />
+        <Project />
+        <Contact />
+        <ScrollUp />
+      </Application>
+      <Footer />
+    </>
   );
 };
