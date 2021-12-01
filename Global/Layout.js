@@ -1,24 +1,14 @@
-import { useEffect, useState } from "react";
+import { useRecoilValue } from "recoil";
 import { ThemeProvider } from "styled-components";
+import { darkModeState } from "../utils/recoil/recoil";
 import { darkTheme, GlobalStyle, lightTheme, theme } from "./GlobalStyle";
 
 export const Layout = ({ children }) => {
-    const [show, setShow] = useState(false);
-    const [toggleTheme, setToggleTheme] = useState("light");
-
-    const showScrollUpLink = () => {
-        window.scrollY > 100 ? setShow(true) : setShow(false);
-    }
-
-    useEffect(() => {
-        window.addEventListener("scroll", showScrollUpLink);
-
-        return () => window.removeEventListener("scroll", showScrollUpLink);
-    }, []);
+    const darkMode = useRecoilValue(darkModeState);
 
     return (
         <ThemeProvider theme={theme}>
-            <ThemeProvider theme={toggleTheme === 'light' ? lightTheme : darkTheme}>
+            <ThemeProvider theme={darkMode ? lightTheme : darkTheme}>
                 <GlobalStyle />
                 {children}
             </ThemeProvider>

@@ -1,7 +1,12 @@
+import { Header } from "../Components";
+import { NextHead } from "../Global/NextHead";
+
 export default function Home() {
   return (
     <div>
-      <h1>My page</h1>
+      <NextHead />
+
+      <Header />
     </div>
   );
 };
