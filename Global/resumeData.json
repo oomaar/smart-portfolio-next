@@ -1,0 +1,360 @@
+{
+  "header": [
+    {
+      "id": "1",
+      "name": "Home",
+      "icon": "ui uil-estate",
+      "href": "#home",
+      "section": "home"
+    },
+    {
+      "id": "2",
+      "name": "About",
+      "icon": "ui uil-user",
+      "href": "#about",
+      "section": "about"
+    },
+    {
+      "id": "3",
+      "name": "Skills",
+      "icon": "ui uil-file-alt",
+      "href": "#skills",
+      "section": "skills"
+    },
+    {
+      "id": "4",
+      "name": "Services",
+      "icon": "ui uil-briefcase-alt",
+      "href": "#services",
+      "section": "services"
+    },
+    {
+      "id": "5",
+      "name": "Portfolio",
+      "icon": "ui uil-scenery",
+      "href": "#portfolio",
+      "section": "portfolio"
+    },
+    {
+      "id": "6",
+      "name": "Contact",
+      "icon": "ui uil-message",
+      "href": "#contact",
+      "section": "contact"
+    }
+  ],
+  "main": {
+    "name": "Omar",
+    "title": "Frontend developer",
+    "description": "I’m also a front-end developer with a keen eye for creating beautiful UIs, producing quality work.",
+    "image": "/img/me.png",
+    "social": [
+      {
+        "class": "ui uil-linkedin-alt",
+        "name": "Linked In",
+        "url": "https://www.linkedin.com/in/omar-hassan-8b1869137"
+      },
+      {
+        "class": "ui uil-github-alt",
+        "name": "Github",
+        "url": "https://github.com/oomaar"
+      },
+      {
+        "class": "ui uil-facebook-f",
+        "name": "facebook",
+        "url": "https://www.facebook.com/omarhassan16694"
+      }
+    ]
+  },
+  "about": {
+    "bio": "I am a creative Frontend Engineer and a Self-Learner. I have always been passionate about everything related to technology and programming, especially the web professions, which I made my career by always giving the best I can as a Web Developer. I always find coding a very engaging hobby, bringing a Code up to life & taking shape step-by-step is a blast. Besides coding, I like to travel to new places and discover new ideas.",
+    "experienceYears": "0",
+    "completedProjects": "0",
+    "companiesWorked": "0",
+    "image": "/img/me-badla.jpg"
+  },
+  "skill": [
+    {
+      "id": 1,
+      "title": "Frontend developer",
+      "subTitle": "More than 3 years",
+      "icon": "ui uil-brackets-curly",
+      "skills": [
+        {
+          "name": "HTML & CSS",
+          "number": "90%",
+          "width": "90"
+        },
+        {
+          "name": "JavaScript",
+          "number": "80%",
+          "width": "80"
+        },
+        {
+          "name": "ReactJS",
+          "number": "80%",
+          "width": "80"
+        },
+        {
+          "name": "NextJS",
+          "number": "70%",
+          "width": "70"
+        },
+        {
+          "name": "Styled-Components",
+          "number": "75%",
+          "width": "75"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Backend developer",
+      "subTitle": "More than 1 year",
+      "icon": "ui uil-server-network",
+      "skills": [
+        {
+          "name": "NodeJS",
+          "number": "70%",
+          "width": "70"
+        },
+        {
+          "name": "MongoDB",
+          "number": "60%",
+          "width": "60"
+        },
+        {
+          "name": "Firebase",
+          "number": "65%",
+          "width": "65"
+        },
+        {
+          "name": "Devops",
+          "number": "65%",
+          "width": "65"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Designer",
+      "subTitle": "More than 4 years",
+      "icon": "ui uil-swatchbook",
+      "skills": [
+        {
+          "name": "Photoshop",
+          "number": "80%",
+          "width": "90"
+        },
+        {
+          "name": "Illustrator",
+          "number": "60%",
+          "width": "60"
+        }
+      ]
+    }
+  ],
+  "qualification": {
+    "education": [
+      {
+        "id": "1",
+        "category": "education",
+        "position": "left",
+        "title": "Computer Science",
+        "subtitle": "Cairo - Future University in Egypt (FUE)",
+        "start": "2012",
+        "finish": "2017"
+      },
+      {
+        "id": "2",
+        "category": "education",
+        "position": "left",
+        "title": "Graphic Design",
+        "subtitle": "Cairo - Russian Cultural Center",
+        "start": "2017",
+        "finish": "2018"
+      },
+      {
+        "id": "3",
+        "category": "education",
+        "position": "right",
+        "title": "Web Development Course ",
+        "subtitle": "Cairo - Future University in Egypt (FUE)",
+        "start": "2018",
+        "finish": "2019"
+      },
+      {
+        "id": "4",
+        "category": "education",
+        "position": "right",
+        "title": "Full-Stack",
+        "subtitle": "UK - App Brewery",
+        "start": "2019",
+        "finish": "2020"
+      }
+    ],
+    "work": [
+      {
+        "id": "1",
+        "category": "work",
+        "position": "right",
+        "title": "Software Enginner",
+        "subtitle": "PAS - Cairo",
+        "start": "2016",
+        "finish": "2018"
+      },
+      {
+        "id": "2",
+        "category": "work",
+        "position": "left",
+        "title": "Graphic Designer",
+        "subtitle": "Up for Cairo - Cairo",
+        "start": "2018",
+        "finish": "2019"
+      },
+      {
+        "id": "3",
+        "category": "work",
+        "position": "left",
+        "title": "Freelance",
+        "subtitle": "Home - Egypt",
+        "start": "2019",
+        "finish": "Now"
+      }
+    ]
+  },
+  "services": [
+    {
+      "title": "Frontend",
+      "profession": "Developer",
+      "buttonText": "View More",
+      "icon": "ui uil-brackets-curly",
+      "service": [
+        "Responsive Web Designing.",
+        "Create Next-App.",
+        "Convert Xd, PSD & JPG files into a responsive and pixel perfect website.",
+        "Convert HTML, CSS & Javascript into React App.",
+        "Build complex Frontends with Animations."
+      ]
+    },
+    {
+      "title": "Backend",
+      "profession": "Developer",
+      "buttonText": "View More",
+      "icon": "ui uil-server-network",
+      "service": [
+        "Build A Secure and Authenticated Server.",
+        "Handle Private Secure Routes.",
+        "Build Firebase App.",
+        "Deploy a Web App on Vercel, Firebase or Netlify."
+      ]
+    },
+    {
+      "title": "Graphic",
+      "profession": "Designer",
+      "buttonText": "View More",
+      "icon": "ui uil-web-grid",
+      "service": [
+        "Sketch the user interface.",
+        "Pick beautiful colors.",
+        "Edit or correct pictures.",
+        "Photo Editing.",
+        "Convert HTML to PSD, Xd."
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "src": "/img/portfolio/beats-circle.jpg",
+      "alt": "Beats shop",
+      "title": "Beats Shop",
+      "description": "Fully Responsive covid-19 Tracker using ReactJS and Styled Components.",
+      "url": "https://beats-shop.vercel.app/"
+    },
+    {
+      "id": 2,
+      "src": "/img/portfolio/covid-tracker.jpg",
+      "alt": "Covid-19 Tracker",
+      "title": "Covid-19 Tracker (ReactJS)",
+      "description": "Fully Responsive covid-19 Tracker using ReactJS and Styled Components.",
+      "url": "https://covid-19-tracker-16970.web.app/"
+    },
+    {
+      "id": 3,
+      "src": "/img/portfolio/makeup.jpg",
+      "alt": "Makeup Store Demo",
+      "title": "Makeup Store Demo (ReactJS)",
+      "description": "Developed Fully Responsive with ReactJS and Styled-components.",
+      "url": "https://serene-spence-a7962f.netlify.app/"
+    },
+    {
+      "id": 4,
+      "src": "/img/portfolio/netflix.jpg",
+      "alt": "Netflix Clone",
+      "title": "Netflix Clone (ReactJS)",
+      "description": "Developed using ReactJS, Styled-components, Compound Components and Firebase.",
+      "url": "https://dreamy-meninsky-4d3cd3.netlify.app/"
+    },
+    {
+      "id": 5,
+      "src": "/img/portfolio/geforce.jpg",
+      "alt": "Geforce Clone",
+      "title": "Geforce Clone (NextJS)",
+      "description": "Fully Responsive using NextJS and Styled Components.",
+      "url": "https://geforce-clone-oomaar.vercel.app/"
+    },
+    {
+      "id": 6,
+      "src": "/img/portfolio/twitter.jpg",
+      "alt": "Twitter Clone",
+      "title": "Twitter Clone (ReactJS)",
+      "description": "Fully Responsive Twitter Clone developed with ReactJS, Styled-components and Firebase.",
+      "url": "https://twitter-4e819.web.app/"
+    }
+  ],
+  "testimonial": [
+    {
+      "src": "/img/testimonial1.jpg",
+      "alt": "testimonial-1",
+      "name": "Sara Smith",
+      "stars": [
+        "ui uil-star",
+        "ui uil-star",
+        "ui uil-star",
+        "ui uil-star",
+        "ui uil-star"
+      ],
+      "client": "Client",
+      "description": "I get a good impression, I carry out my project with all the possible and attention and support 24 hours a day."
+    },
+    {
+      "src": "/img/testimonial2.jpg",
+      "alt": "testimonial-2",
+      "name": "Matt Robinson",
+      "stars": [
+        "ui uil-star",
+        "ui uil-star",
+        "ui uil-star",
+        "ui uil-star",
+        "ui uil-star"
+      ],
+      "client": "Client",
+      "description": "I get a good impression, I carry out my project with all the possible and attention and support 24 hours a day."
+    },
+    {
+      "src": "/img/testimonial3.jpg",
+      "alt": "testimonial-3",
+      "name": "Raul Harris",
+      "stars": [
+        "ui uil-star",
+        "ui uil-star",
+        "ui uil-star",
+        "ui uil-star",
+        "ui uil-star"
+      ],
+      "client": "Client",
+      "description": "I get a good impression, I carry out my project with all the possible and attention and support 24 hours a day."
+    }
+  ]
+}
