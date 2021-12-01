@@ -1,4 +1,4 @@
-import { About, Header, Hero, Portfolio, Project, Qualification, Services, Skill } from "../Components";
+import { About, Contact, Header, Hero, Portfolio, Project, Qualification, Services, Skill } from "../Components";
 import { NextHead } from "../Global/NextHead";
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
       <Services />
       <Portfolio />
       <Project />
+      <Contact />
     </div>
   );
 };
