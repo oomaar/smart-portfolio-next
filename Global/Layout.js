@@ -9,8 +9,8 @@ export const Layout = ({ children }) => {
 
     return (
         <ThemeProvider theme={theme}>
-            <ThemeProvider theme={darkMode ? lightTheme : darkTheme}>
-                {!darkMode && <Background />}
+            <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+                {darkMode && <Background />}
                 <GlobalStyle />
                 {children}
             </ThemeProvider>
