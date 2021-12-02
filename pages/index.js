@@ -1,3 +1,4 @@
+import resumeData from "../Global/resumeData.json";
 import styled from 'styled-components';
 import {
   About,
@@ -32,18 +33,18 @@ export default function Home() {
       <NextHead />
 
       <Application>
-        <Header />
-        <Hero />
-        <About />
-        <Skill />
-        <Qualification />
-        <Services />
-        <Portfolio />
+        <Header data={resumeData.header} name={resumeData.main.name} />
+        <Hero data={resumeData.main} />
+        <About data={resumeData.about} />
+        <Skill data={resumeData.skill} />
+        <Qualification data={resumeData.qualification} />
+        <Services data={resumeData.services} />
+        <Portfolio data={resumeData.portfolio} />
         <Project />
-        <Contact />
+        <Contact data={resumeData.contact} />
         <ScrollUp />
       </Application>
-      <Footer />
+      <Footer data={resumeData.main} />
     </>
   );
 };

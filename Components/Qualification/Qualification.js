@@ -1,4 +1,3 @@
-import mainData from "../../Global/resumeData.json";
 import { useState } from "react";
 import { Container, Section, SectionSubtitle, SectionTitle } from "../../Global/GlobalStyle";
 import {
@@ -15,8 +14,7 @@ import {
     QualificationLine,
 } from "./styledQualification";
 
-export const Qualification = () => {
-    const data = mainData.qualification;
+export const Qualification = ({ data }) => {
     const [dataTarget, setDataTarget] = useState('education');
     const [active, setActive] = useState(true);
 

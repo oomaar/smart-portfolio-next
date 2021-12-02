@@ -1,4 +1,3 @@
-import mainData from "../../Global/resumeData.json";
 import { useState } from "react";
 import { Container, Section, SectionSubtitle, SectionTitle } from "../../Global/GlobalStyle";
 import {
@@ -17,8 +16,7 @@ import {
     SkillPercentage,
 } from "./styledSkill";
 
-export const Skill = () => {
-    const data = mainData.skill;
+export const Skill = ({ data }) => {
     const [toggleShow, setToggleShow] = useState(1);
 
     const handleToggleShow = index => {

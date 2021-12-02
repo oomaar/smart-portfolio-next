@@ -15,8 +15,7 @@ import {
     SubmitForm,
 } from "./styledContact";
 
-export const Contact = () => {
-
+export const Contact = ({ data }) => {
     const sendMessage = e => {
         e.preventDefault();
         // Firebase code goes here
@@ -35,7 +34,7 @@ export const Contact = () => {
                             </ContactIcon>
                             <div>
                                 <ContactTitle>Call ME</ContactTitle>
-                                <ContactSubtitle>002-011-4012-5555</ContactSubtitle>
+                                <ContactSubtitle>{data.phone}</ContactSubtitle>
                             </div>
                         </ContactInformarion>
                         <ContactInformarion>
@@ -45,7 +44,7 @@ export const Contact = () => {
 
                             <div>
                                 <ContactTitle>Email</ContactTitle>
-                                <ContactSubtitle>omaar_5@hotmail.com</ContactSubtitle>
+                                <ContactSubtitle>{data.email}</ContactSubtitle>
                             </div>
                         </ContactInformarion>
                         <ContactInformarion>
@@ -55,9 +54,7 @@ export const Contact = () => {
 
                             <div>
                                 <ContactTitle>Location</ContactTitle>
-                                <ContactSubtitle>
-                                    Egypt - Cairo, Heliopolis
-                                </ContactSubtitle>
+                                <ContactSubtitle>{data.location}</ContactSubtitle>
                             </div>
                         </ContactInformarion>
                     </div>

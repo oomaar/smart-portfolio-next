@@ -1,4 +1,3 @@
-import mainData from "../../Global/resumeData.json";
 import { Container } from "../../Global/GlobalStyle";
 import {
     FooterContainer,
@@ -13,8 +12,7 @@ import {
     FooterSocial,
 } from "./styledFooter";
 
-export const Footer = () => {
-    const data = mainData.main;
+export const Footer = ({ data }) => {
     const network = data.social.map((network) => {
         return (
             <FooterSocial key={network.name} href={network.url} target="_blank">
@@ -50,7 +48,7 @@ export const Footer = () => {
                         </FooterSocials>
                     </FooterSubContainer>
                 </Container>
-                <FooterCopy>&#169; Created by <span>Omar</span></FooterCopy>
+                <FooterCopy>&#169; Created by <span>{data.name}</span> - powerd by <span>NextJS</span></FooterCopy>
             </FooterBackground>
         </FooterContainer>
     );

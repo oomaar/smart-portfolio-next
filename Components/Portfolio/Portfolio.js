@@ -1,9 +1,7 @@
 import SwiperCore, { Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
 import 'swiper/swiper-bundle.css';
 import { useRef } from 'react';
-import mainData from "../../Global/resumeData.json";
 import {
     Button,
     ButtonIcon,
@@ -28,8 +26,7 @@ import {
 
 SwiperCore.use([Navigation, Pagination, Scrollbar]);
 
-export const Portfolio = () => {
-    const data = mainData.portfolio
+export const Portfolio = ({ data }) => {
     const navigationPrevRef = useRef(null);
     const navigationNextRef = useRef(null);
 

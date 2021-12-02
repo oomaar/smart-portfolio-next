@@ -1,6 +1,5 @@
 import { BackgroundAnimation } from "..";
 import { Button, ButtonIcon, Container, Section, ButtonSpan } from "../../Global/GlobalStyle";
-import mainData from "../../Global/resumeData.json";
 import {
     HomeContaier,
     HomeContent,
@@ -16,8 +15,7 @@ import {
     ScrollButtonText,
 } from "./styledHero";
 
-export const Hero = () => {
-    const data = mainData.main;
+export const Hero = ({ data }) => {
     const network = data.social.map((network) => {
         return (
             <SocialIcon key={network.name} href={network.url} target="_blank">

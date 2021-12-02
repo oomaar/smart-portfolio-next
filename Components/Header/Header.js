@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Container } from "../../Global/GlobalStyle";
-import mainData from "../../Global/resumeData.json";
 import { useRecoilState } from "recoil";
 import { darkModeState } from "../../utils/recoil/recoil";
 import {
@@ -18,8 +17,7 @@ import {
     NavToggle,
 } from "./styledHeader";
 
-export const Header = () => {
-    const headerData = mainData.main;
+export const Header = ({ data, name }) => {
     const [shadow, setShadow] = useState(false);
     const [toggleShow, setToggleShow] = useState(false);
 
@@ -35,7 +33,7 @@ export const Header = () => {
         window.addEventListener("scroll", showShadow);
     }, []);
 
-    const navLinks = mainData.header.map(link => {
+    const navLinks = data.map(link => {
         return (
             <ListItem key={link.id}>
                 <NavLink
@@ -61,7 +59,7 @@ export const Header = () => {
         <HeaderTag shadow={shadow} id="header">
             <Container>
                 <Nav>
-                    <Logo>{headerData.name}</Logo>
+                    <Logo>{name}</Logo>
 
                     <NavMenu toggleShow={toggleShow}>
                         <NavList>

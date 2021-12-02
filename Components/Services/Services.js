@@ -1,4 +1,3 @@
-import mainData from "../../Global/resumeData.json";
 import { useState } from "react";
 import {
     Button,
@@ -24,8 +23,7 @@ import {
     ServicesModalIcon,
 } from "./styledServices";
 
-export const Services = () => {
-    const data = mainData.services;
+export const Services = ({ data }) => {
     const [active, setActive] = useState(false);
 
     const handleActive = (index) => {

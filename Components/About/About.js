@@ -1,4 +1,3 @@
-import mainData from "../../Global/resumeData.json";
 import {
     Button,
     Section,
@@ -15,9 +14,7 @@ import {
     AboutBtns,
 } from "./styledAbout";
 
-export const About = () => {
-    const data = mainData.about;
-
+export const About = ({ data }) => {
     return (
         <Section id="about">
             <SectionTitle>About Me</SectionTitle>

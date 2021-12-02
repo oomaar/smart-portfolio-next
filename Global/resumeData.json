@@ -367,5 +367,10 @@
       "client": "Client",
       "description": "I get a good impression, I carry out my project with all the possible and attention and support 24 hours a day."
     }
-  ]
+  ],
+  "contact": {
+    "phone": "002-011-4012-5555",
+    "email": "omaar_5@hotmail.com",
+    "location": "Egypt - Cairo, Heliopolis"
+  }
 }
