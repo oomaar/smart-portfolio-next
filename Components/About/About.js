@@ -31,7 +31,7 @@ export const About = () => {
 
                         <AboutBtns>
                             <Button
-                                download=""
+                                download="true"
                                 href="/pdf/Omar Hassan-CV2021.pdf"
                                 flex
                             >
