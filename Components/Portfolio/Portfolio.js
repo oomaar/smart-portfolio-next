@@ -61,7 +61,7 @@ export const Portfolio = ({ data }) => {
                                     <PortfolioData>
                                         <PortfolioTitle>{slide.title}</PortfolioTitle>
                                         <PortfolioDesc>{slide.description}</PortfolioDesc>
-                                        <Button href={slide.url} flex small>
+                                        <Button target="_blank" href={slide.url} flex small>
                                             <PortfolioButton>
                                                 <ButtonSpan>Demo</ButtonSpan>
                                                 <ButtonIcon>
