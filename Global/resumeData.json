@@ -230,6 +230,15 @@
         "title": "Freelance",
         "subtitle": "Home - Egypt",
         "start": "2019",
+        "finish": "2021"
+      },
+      {
+        "id": "4",
+        "category": "work",
+        "position": "left",
+        "title": "Internship",
+        "subtitle": "Worex Technology - Egypt",
+        "start": "2022",
         "finish": "Now"
       }
     ]
